@@ -1,0 +1,107 @@
+/* Design Tokens - Auto-generated */
+/* Do not edit directly - modify tokens.json instead */
+
+/* === PRIMITIVES === */
+:root {
+  --primitive-color-white: #FFFFFF;
+  --primitive-color-sand-50: #FCFAF5;
+  --primitive-color-sand-100: #F6EFE2;
+  --primitive-color-sand-200: #EBE0CB;
+  --primitive-color-sand-300: #D8C9A8;
+  --primitive-color-stone-500: #786F5F;
+  --primitive-color-stone-700: #4A4438;
+  --primitive-color-stone-900: #241F16;
+  --primitive-color-ink-800: #26443B;
+  --primitive-color-ink-900: #1A302A;
+  --primitive-color-ink-950: #12211D;
+  --primitive-color-terracotta-100: #FBE6D8;
+  --primitive-color-terracotta-500: #D9642E;
+  --primitive-color-terracotta-600: #BB4E1E;
+  --primitive-color-terracotta-700: #8F3A16;
+  --primitive-color-teal-100: #DCEAEA;
+  --primitive-color-teal-500: #1F6672;
+  --primitive-color-teal-600: #17505A;
+  --primitive-color-teal-700: #123E46;
+  --primitive-color-gold-500: #DE9F3B;
+  --primitive-font-display: var(--font-geist-sans), 'Geist', system-ui, sans-serif;
+  --primitive-font-sans: var(--font-geist-sans), system-ui, sans-serif;
+  --primitive-font-mono: var(--font-geist-mono), 'SF Mono', monospace;
+  --primitive-motion-duration-micro: 160ms;
+  --primitive-motion-duration-base: 280ms;
+  --primitive-motion-duration-reveal: 700ms;
+  --primitive-motion-ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --primitive-motion-ease-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --primitive-radius-sm: 0.5rem;
+  --primitive-radius-md: 0.85rem;
+  --primitive-radius-lg: 1.25rem;
+  --primitive-radius-xl: 1.75rem;
+  --primitive-radius-full: 9999px;
+  --primitive-shadow-sm: 0 1px 2px rgba(36, 31, 22, 0.06);
+  --primitive-shadow-md: 0 8px 24px -8px rgba(36, 31, 22, 0.16);
+  --primitive-shadow-lg: 0 24px 60px -16px rgba(18, 33, 29, 0.22);
+}
+
+/* === SEMANTIC === */
+:root {
+  --background: #FCFAF5;
+  --foreground: #241F16;
+  --card: #FFFFFF;
+  --card-foreground: #241F16;
+  --muted: #F6EFE2;
+  --muted-foreground: #786F5F;
+  --border: #EBE0CB;
+  --primary: #D9642E;
+  --primary-foreground: #FFFFFF;
+  --primary-hover: #BB4E1E;
+  --secondary: #17505A;
+  --secondary-foreground: #FFFFFF;
+  --accent: #FBE6D8;
+  --accent-foreground: #8F3A16;
+  --ring: #D9642E;
+  --radius: 1.25rem;
+  --ink: #12211D;
+  --ink-foreground: #FCFAF5;
+  --ink-muted: #26443B;
+  --gold: #DE9F3B;
+  --type-display: var(--font-geist-sans), 'Geist', system-ui, sans-serif;
+  --type-body: var(--font-geist-sans), system-ui, sans-serif;
+  --type-mono: var(--font-geist-mono), 'SF Mono', monospace;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-standard: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --duration-micro: 160ms;
+  --duration-base: 280ms;
+  --duration-reveal: 700ms;
+  --shadow-sm: 0 1px 2px rgba(36, 31, 22, 0.06);
+  --shadow-md: 0 8px 24px -8px rgba(36, 31, 22, 0.16);
+  --shadow-lg: 0 24px 60px -16px rgba(18, 33, 29, 0.22);
+}
+
+/* === COMPONENTS === */
+:root {
+  --badge-bg: #FBE6D8;
+  --badge-fg: #8F3A16;
+  --button-primary-bg: #D9642E;
+  --button-primary-fg: #FFFFFF;
+  --button-primary-hover-bg: #BB4E1E;
+  --button-ghost-border: #D8C9A8;
+  --button-ghost-fg: #241F16;
+  --button-ghost-hover-bg: #F6EFE2;
+  --feature-card-bg: #FFFFFF;
+  --feature-card-border: #EBE0CB;
+  --feature-card-icon-bg: #DCEAEA;
+  --feature-card-icon-fg: #17505A;
+  --feature-card-radius: 1.25rem;
+  --feature-card-shadow-hover: 0 8px 24px -8px rgba(36, 31, 22, 0.16);
+  --step-badge-bg: #12211D;
+  --step-badge-fg: #FCFAF5;
+  --step-connector: #D8C9A8;
+  --testimonial-card-bg: #FFFFFF;
+  --testimonial-card-border: #EBE0CB;
+  --testimonial-card-quote-mark: #D9642E;
+  --testimonial-card-star: #DE9F3B;
+  --hero-eyebrow-bg: #FFFFFF;
+  --hero-eyebrow-border: #D8C9A8;
+  --hero-title-size: clamp(2.75rem, 6.4vw, 5.25rem);
+  --hero-title-leading: 1.02;
+  --hero-glow: radial-gradient(ellipse 70% 50% at 50% 0%, rgba(217, 100, 46, 0.14), transparent 60%);
+}
